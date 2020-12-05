@@ -42,7 +42,7 @@ export default {
       .then((response) => {
         this.noticias = response.data.articles.slice(0, 4);
 
-        console.log(this.noticias);
+        
       });
   },
 };
