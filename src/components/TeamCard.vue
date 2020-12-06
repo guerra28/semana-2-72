@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ member }}
+    {{ member[0] }}
   </div>
 </template>
 
