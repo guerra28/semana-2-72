@@ -6,7 +6,11 @@
       :key="index"
     >
       <div class="card">
-      <img :src="noticia.urlToImage" class="img-fluid mt-2 ml-2 mr-2" alt="imagen" />
+        <img
+          :src="noticia.urlToImage"
+          class="img-fluid mt-2 ml-2 mr-2"
+          alt="imagen"
+        />
         <div class="card-body">
           <h5 class="card-title">{{ noticia.title }}</h5>
           <h6 class="card-sub-title">
@@ -15,7 +19,9 @@
           <p class="card-text">
             {{ noticia.content }}
           </p>
-          <a :href="noticia.url" class="btn btn-primary" target="_blank">Leer más-></a>
+          <a :href="noticia.url" class="btn btn-primary" target="_blank"
+            >Leer más-></a
+          >
         </div>
       </div>
     </div>
@@ -41,12 +47,9 @@ export default {
 
       .then((response) => {
         this.noticias = response.data.articles.slice(0, 4);
-
-        
       });
   },
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
