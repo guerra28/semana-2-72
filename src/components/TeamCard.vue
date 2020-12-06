@@ -1,17 +1,14 @@
 <template>
-    <div>
-        
-
-    </div>
+  <div>
+    {{ member }}
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "TeamCard",
-        props: ['member']
-    }
+export default {
+  name: "TeamCard",
+  props: ["member"],
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
