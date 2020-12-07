@@ -6,16 +6,21 @@
     <div class="container-fluid">
       <team-card :member="equipo"> </team-card>
     </div>
+
+    <seccionFooter> </seccionFooter>
   </div>
 </template>
 
 <script>
 import SeccionNoticias from "./components/SeccionNoticias.vue";
 import TeamCard from "./components/TeamCard.vue";
+import SeccionFooter from "./components/SeccionFooter.vue";
 
 export default {
   name: "App",
-  components: { SeccionNoticias, TeamCard },
+  components: { SeccionNoticias, 
+  TeamCard,
+  SeccionFooter, },
 
   data() {
     return {
