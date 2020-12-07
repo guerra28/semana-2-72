@@ -1,26 +1,28 @@
 <template>
-  <div class="card-deck">
-    <div class="card" v-for="(miembro, index) in member" :key="index">
-      <img :src="miembro.image" class="card-img-top mg-fluid" alt="..." />
-
-      <div class="card-body">
-        <h5 class="card-title">{{ miembro.nombre }}</h5>
-        <p class="card-text">
-          {{ miembro.descripcion }}
-        </p>
-        <p class="card-text">
-          <small class="text-muted"><span>Rol: </span>{{ miembro.rol }} </small>
-        </p>
-      </div>
-    </div>
-  </div>
+    <div class="card text-white bg-dark"> 
+        <div class="d-flex justify-content-center p-2"> 
+            <img v-bind:src="member.image" alt="Fotografía del equipo"/>
+        </div> 
+        <div class="card-body"> 
+            <h3 class="card-title text-center">{{ member.nombre }}</h3> 
+            <p class="card-text"><span>Código: </span> {{ member.codigo }}</p> 
+            <p class="card-text">{{ member.descripcion }}</p> 
+            <p class="card-text"><span>Rol: </span> {{ member.rol }}</p> 
+        </div> 
+        <div class="card-footer"> 
+            <small class="text-muted">Last updated 3 mins ago</small> 
+        </div> 
+    </div> 
 </template>
 
 <script>
-export default {
-  name: "TeamCard",
-  props: ["member"],
-};
+
+    export default {
+        name: "TeamCard",
+        props: ['member']
+    }
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

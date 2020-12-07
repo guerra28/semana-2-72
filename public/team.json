@@ -1,0 +1,45 @@
+{
+    "team": [
+    {
+      "codigo": 1,
+      "nombre": "Emerson David Cardona Marín",
+      "descripcion":
+        "Edad: 47 años Ciudad de residencia: Dosquebradas Ocupación: Docente Universitario Universidad Tecnológica de Pereira",
+      "rol": "Desarrollador Backend",
+      "image": "./img/avatar-david.jpg",
+      "alt": "Programador David"
+    },
+    {
+      "codigo": 2,
+      "nombre": "Andrés Felipe Figueroa Betancourt",
+      "descripcion":
+        "Edad: 24 años Ciudad de residencia: Bogotá Ocupación: Estudiante de Maestría",
+      "rol": "Desarrollador Backend",
+      "image": "./img/avatar-andres.png"
+    },
+    {
+      "codigo": 3,
+      "nombre": "Juan Álvaro Guerra Sánchez",
+      "descripcion":
+        "Edad: 27 años Ciudad de residencia: Manizales Ocupación: Asesor de atención al cliente",
+      "rol": "Desarrollador Backend",
+      "image": "./img/avatar-juan.jpeg"
+    },
+    {
+      "codigo": 4,
+      "nombre": "Daniel José Montoya Sánchez",
+      "descripcion":
+        "Edad: 26 años Ciudad de residencia: Medellín Ocupación: Estudiante de Ingeniería",
+      "rol": "Desarrollador Backend",
+      "image": "./img/avatar-daniel.png"
+    },
+    {
+      "codigo": 5,
+      "nombre": "Yeimy Xiomara Torres Sánchez",
+      "descripcion":
+        "Ciudad de residencia: Bogotá Ocupación: Ingeniera Industrial",
+      "rol": "Desarrollador Backend",
+      "image": "./img/avatar-xiomara.jpeg"
+    }
+  ]
+}
