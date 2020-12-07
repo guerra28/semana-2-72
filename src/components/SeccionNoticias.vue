@@ -1,7 +1,8 @@
 <template>
-  <div class="row mt-5 mb-3">
+  <div id="noticias" class="row mt-5 mb-3">
     <div
       class="col-sm-6 mb-3 mr-auto"
+
       v-for="(noticia, index) in noticias"
       :key="index"
     >
