@@ -4,7 +4,7 @@
       <seccion-noticias></seccion-noticias>
     </div>
 
-    <div class="container-fluid"> 
+    <div class="container-fluid" id="nosotros"> 
       <div class="row justify-content-center mb-5"> 
         <div class="col mt-5" v-for=" (item, index) of member" :key="index">
           <team-card v-bind:member="item"> </team-card>
@@ -12,7 +12,7 @@
       </div>
     </div>
       
-    <seccionFooter> </seccionFooter>
+    <seccionFooter id="contacto"> </seccionFooter>
   </div>
 </template>
 
